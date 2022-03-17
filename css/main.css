@@ -1,11 +1,8 @@
 html {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
-blockquote::before{
-
-}
-blockquote::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -16,8 +13,9 @@ body {
 
 h1 {
   font-size: 1.5rem;
+}
 
-  article
+article {
   font-style: italic;
   color: #666;
 }
